@@ -149,7 +149,7 @@ Ahora estas entradas se procesarán desde cero cada vez que presione alternar. V
     </template>
     <template v-else>
       <label>Email</label>
-      <input placeholder="Ingrese su nombre de usuario" key="email-input">
+      <input placeholder="Ingrese su email" key="email-input">
     </template>
   </div>
   <button @click="toggleLoginType">Alternar tipo de Login</button>
